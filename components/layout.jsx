@@ -11,15 +11,15 @@ export default function Layout({ children }) {
               content="LillyBelle Deer's Professional Website" />
         <meta name="og:title" content="LillyBelle Deer" />
       </Head>
-      <Container fluid="md" className={styles.pageContainer}>
-        <Navbar expand="lg" className={styles.topNav}>
-          <Navbar.Brand href="/">LillyBelle Deer</Navbar.Brand>
+      <Container fluid="md">
+        <Navbar expand="lg">
+          <Navbar.Brand className={styles.topNavBrand}  href="/">LillyBelle Deer</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
-              <Nav.Link href="">Bio</Nav.Link>
-              <Nav.Link href="">Publications</Nav.Link>
-              <Nav.Link href="">Outside Academia</Nav.Link>
+              <Nav.Link className={styles.topNavLink} href="/">Bio</Nav.Link>
+              <Nav.Link className={styles.topNavLink} href="/">Publications</Nav.Link>
+              <Nav.Link className={styles.topNavLink} href="/">Outside Academia</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>

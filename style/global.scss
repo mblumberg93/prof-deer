@@ -1,3 +1,21 @@
 /* ensure all pages have Bootstrap CSS */
 @import '~bootstrap/dist/css/bootstrap.min.css';
+@import url('https://fonts.googleapis.com/css?family=Poppins');
 
+body {
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 1px 1px 2px rgba(0,0,0, 0.20);
+}
+img {
+    max-width: 100%;
+    display: block;
+}
+.home-image {
+    margin: 0 auto 1.6rem;
+    -webkit-box-shadow: 2px 2px 4px 1px rgba(0,0,0,0.6); 
+    box-shadow: 2px 2px 4px 1px rgba(0,0,0,0.6);
+
+    @media (min-width: 576px) { 
+        max-width: 75%;
+    }
+}
