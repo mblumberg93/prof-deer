@@ -9,7 +9,8 @@ export const Pubs = [
         title: "The role of childhood executive function in explaining income disparities in long-term academic achievement",
         source: "Child Development",
         volume_issue: "91(5)",
-        reference: "e1046-e1063. doi: 10.1111/cdev.13383"
+        reference: "e1046-e1063. doi: 10.1111/cdev.13383",
+        pdf: "7. CD_2020.pdf"
     },
     {
         authors: [
@@ -24,7 +25,8 @@ export const Pubs = [
         title: "Parenting matters: Parents can reduce or amplify children’s anxiety and cortisol responses to acute stress",
         source: "Development and Psychopathology",
         volume_issue: null,
-        reference: null
+        reference: null,
+        pdf: null
     },
     {
         authors: [
@@ -36,7 +38,8 @@ export const Pubs = [
         title: "Autonomic nervous system activity predicts increasing serum inflammatory cytokines in children",
         source: "Psychoneuroendocrinology",
         volume_issue: "119",
-        reference: "104745. doi: 10.1016/j.psyneuen.2020.104745"
+        reference: "104745. doi: 10.1016/j.psyneuen.2020.104745",
+        pdf: "5. PNEC_2020.pdf"
     },
     {
         authors: [
@@ -48,7 +51,8 @@ export const Pubs = [
         title: "The influence of maternal stress and child maltreatment on the developing HPA axis. In L. L. M. Welling & T. K. Shackelford (Eds.)",
         source: "Oxford Handbook on Evolutionary Psychology and Behavioral Endocrinology",
         volume_issue: null,
-        reference: "(pp. 161-177). New York: Oxford University Press. doi: 10.1093/oxfordhb/9780190649739.013.9"
+        reference: "(pp. 161-177). New York: Oxford University Press. doi: 10.1093/oxfordhb/9780190649739.013.9",
+        pdf: "4. Oxford_2019.pdf"
     },
     {
         authors: [
@@ -62,7 +66,8 @@ export const Pubs = [
         title: "Racial/ethnic disparities in cortisol diurnal patterns in affect in adolescence",
         source: "Development and Psychopathology",
         volume_issue: "30(5)",
-        reference: "1977-1993. doi: 10.1017/S0954579418001098"
+        reference: "1977-1993. doi: 10.1017/S0954579418001098",
+        pdf: "3. DPp_2018.pdf"
     },
     {
         authors: [
@@ -74,7 +79,8 @@ export const Pubs = [
         title: "Anxiety and self-efficacy as sequential mediators in U.S. college students’ career preparation",
         source: "Education + Training",
         volume_issue: "60(2)",
-        reference: "185-197. doi: 10.1108/ET-07-2017-0096"
+        reference: "185-197. doi: 10.1108/ET-07-2017-0096",
+        pdf: "2. E+T_2018.pdf"
     },
     {
         authors: [
@@ -88,6 +94,7 @@ export const Pubs = [
         title: "Venire jurors’ perception of adversarial allegiance",
         source: "Psychology, Public Policy, and Law",
         volume_issue: "21",
-        reference: "161-168. doi: 10.1037/law0000042"
+        reference: "161-168. doi: 10.1037/law0000042",
+        pdf: "1. PPpL_2015.pdf"
     },
 ]

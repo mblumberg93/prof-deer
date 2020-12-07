@@ -1,6 +1,6 @@
-import { Container, Row, Col } from 'react-bootstrap'
 import Layout from '../components/layout'
 import { Pubs } from '../lib/pubs';
+import { CloudDownload } from 'react-bootstrap-icons';
 
 export default function Publications() {
     const publicationString = (publication, number) => {
@@ -43,7 +43,12 @@ export default function Publications() {
         <Layout>
             <p>Below is a list of my current published work. Please feel free to reach out if you have any questions on the publications.</p>
             {Pubs.map((publication, index) => (
-                <p dangerouslySetInnerHTML={publicationString(publication, (Pubs.length - index))}></p>
+                <p>
+                    <span dangerouslySetInnerHTML={publicationString(publication, (Pubs.length - index))}></span>
+                    { publication.pdf && 
+                        <a href={"/pdfs/" + publication.pdf} target="_blank" class="publication-download"><CloudDownload /></a>
+                    }
+                </p>
             ))}
         </Layout>
     )
