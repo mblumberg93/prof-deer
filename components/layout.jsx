@@ -21,7 +21,7 @@ export default function Layout({ children }) {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
               <Nav.Link className={styles.topNavLink} href="/">Bio</Nav.Link>
-              <Nav.Link className={styles.topNavLink} href="/">Publications</Nav.Link>
+              <Nav.Link className={styles.topNavLink} href="/publications">Publications</Nav.Link>
               <Nav.Link className={styles.topNavLink} href="/">Outside Academia</Nav.Link>
             </Nav>
           </Navbar.Collapse>
