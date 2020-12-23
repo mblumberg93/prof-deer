@@ -4,7 +4,7 @@
   "author": "Marc Blumberg",
   "license": "MIT",
   "scripts": {
-    "dev": "next dev",
+    "dev": "(echo \"Connect locally on:\" && ipconfig getifaddr en0) & next dev",
     "build": "next build",
     "start": "next start"
   },

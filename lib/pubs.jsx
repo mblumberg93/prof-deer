@@ -1,4 +1,4 @@
-export const Pubs = [
+export const CurrentPubs = [
     {
         authors: [
             "Deer, L. K.", 
@@ -96,5 +96,51 @@ export const Pubs = [
         volume_issue: "21",
         reference: "161-168. doi: 10.1037/law0000042",
         pdf: "1. PPpL_2015.pdf"
+    },
+]
+export const UpcomingPubs = [
+    {
+        authors: [
+            "Alen, N. V.", 
+            "Deer, L. K.", 
+            "Karimi, M.",
+            "Feyzieva, E.",
+            "Hastings, P. D.",
+            "Hostinar, C. E."
+        ],
+        year: "revision invited, submitted",
+        title: "Children’s altruism following acute stress: The role of autonomic nervous system activity and social support",
+        source: "Developmental Science"
+    },
+    {
+        authors: [
+            "Deer, L. K.", 
+            "Shields, G. S.", 
+            "Hostinar, C. E."
+        ],
+        year: "revision invited, in progress",
+        title: "Curvilinear associations between family income in early childhood and the cortisol awakening response in adolescence",
+        source: "Psychoneuroendocrinology"
+    },
+    {
+        authors: [
+            "Shields, G. S.", 
+            "Deer, L. K.", 
+            "Hastings, P. D.",
+            "Hostinar, C. E."
+        ],
+        year: "revision invited, in progress",
+        title: "Adiposity, inflammation, and working memory: Longitudinal evidence for a vicious cycle",
+        source: "Brain, Behavior, and Immunity – Health"
+    },
+    {
+        authors: [
+            "Alen, N. V.", 
+            "Deer, L. K.", 
+            "Hostinar, C. E."
+        ],
+        year: "under review",
+        title: "Respiratory sinus arrhythmia as a resilience marker in children’s health",
+        source: "Psychosomatic Medicine"
     },
 ]
