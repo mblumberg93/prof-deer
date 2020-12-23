@@ -13,10 +13,10 @@ export default function OutsideAcademia() {
                     <Col md={6}>
                         <Container>
                             <Row>
-                                <img src="/images/IMG-9162.jpg" />
+                                <img src="/images/IMG-9162.JPG" />
                             </Row>
                             <Row>
-                                <img src="/images/IMG-9972.jpg" />
+                                <img src="/images/IMG-9972.JPG" />
                             </Row>
                         </Container>
                     </Col>
