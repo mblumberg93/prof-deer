@@ -22,7 +22,7 @@ export const CurrentPubs = [
             "Hostinar, C. E."
         ],
         year: "2020, in press",
-        title: "Parenting matters: Parents can reduce or amplify children’s anxiety and cortisol responses to acute stress",
+        title: "Parenting matters: Parents can reduce or amplify children's anxiety and cortisol responses to acute stress",
         source: "Development and Psychopathology",
         volume_issue: null,
         reference: null,
@@ -76,7 +76,7 @@ export const CurrentPubs = [
             "Gohn, K."
         ],
         year: "2018",
-        title: "Anxiety and self-efficacy as sequential mediators in U.S. college students’ career preparation",
+        title: "Anxiety and self-efficacy as sequential mediators in U.S. college students' career preparation",
         source: "Education + Training",
         volume_issue: "60(2)",
         reference: "185-197. doi: 10.1108/ET-07-2017-0096",
@@ -91,7 +91,7 @@ export const CurrentPubs = [
             "Deer, L. K." 
         ],
         year: "2015",
-        title: "Venire jurors’ perception of adversarial allegiance",
+        title: "Venire jurors' perception of adversarial allegiance",
         source: "Psychology, Public Policy, and Law",
         volume_issue: "21",
         reference: "161-168. doi: 10.1037/law0000042",
@@ -109,7 +109,7 @@ export const UpcomingPubs = [
             "Hostinar, C. E."
         ],
         year: "revision invited, submitted",
-        title: "Children’s altruism following acute stress: The role of autonomic nervous system activity and social support",
+        title: "Children's altruism following acute stress: The role of autonomic nervous system activity and social support",
         source: "Developmental Science"
     },
     {
@@ -140,7 +140,7 @@ export const UpcomingPubs = [
             "Hostinar, C. E."
         ],
         year: "under review",
-        title: "Respiratory sinus arrhythmia as a resilience marker in children’s health",
+        title: "Respiratory sinus arrhythmia as a resilience marker in children's health",
         source: "Psychosomatic Medicine"
     },
 ]

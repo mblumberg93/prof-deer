@@ -1,0 +1,21 @@
+.homeImage {
+    margin: 0 auto 1.6rem;
+    -webkit-box-shadow: 2px 2px 4px 1px rgba(0,0,0,0.6); 
+    box-shadow: 2px 2px 4px 1px rgba(0,0,0,0.6);
+    max-width: 100%;
+    display: block;
+
+    @media (min-width: 576px) { 
+        max-width: 75%;
+    }
+}
+
+.homeIntro {
+    @media (min-width: 1200px) { 
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+}

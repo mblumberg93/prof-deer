@@ -1,5 +1,6 @@
 import { Container, Row, Col } from 'react-bootstrap'
 import Layout from '../components/layout'
+import styles from'../style/home.module.scss'
 
 export default function Home() {
   return (
@@ -7,11 +8,13 @@ export default function Home() {
       <Container fluid>
         <Row>
           <Col md={6}>
-            <img className="home-image" src="/images/home.jpg" />
+            <img className={styles.homeImage} src="/images/home.jpg" />
           </Col>
           <Col md={6}>
-            <p>Lorem ipsum dolor sit amet, quem periculis ius ad, has vivendum scribentur id, aperiam intellegam pri ei. At mei sint nemore explicari, ad has aeque postea. Audire insolens expetenda ne pri. Cu inani tantas comprehensam mea, putent tamquam qualisque an sed, ne paulo eloquentiam sed.</p>
-            <p>Ad has ubique posidonium delicatissimi. Quis noster meliore te nec, ex duo iudicabit honestatis. Ex porro numquam cotidieque mei, nec exerci nostro saperet ex, ut veniam feugait urbanitas mei. Honestatis ullamcorper vim ex, quo stet vituperata et. Atqui omnesque intellegebat qui eu.</p>
+            <div className={styles.homeIntro}>
+              <p>Hello! I am a Developmental Psychology Ph.D. Candidate at the University of California, Davis. I study the role of stress in shaping child development, including outcomes such as health and academic achievement. I am particularly interested in moderators of these processes, such as individual differences in stress neurobiology and cognitive processes like executive function.</p>
+              <p>I am completing my doctoral studies with <a target="_blank" href="https://psychology.ucdavis.edu/people/hostinar">Camelia E. Hostinar</a> in the <a target="_blank" href="http://seslab.ucdavis.edu/">Social Environment and Stress Lab</a>. I received my B.A. from Claremont McKenna College in 2015, my M.A. from UC Davis in 2018, and will complete my Ph.D. from UC Davis in Summer 2021.</p>
+            </div>
           </Col>
         </Row>
       </Container>

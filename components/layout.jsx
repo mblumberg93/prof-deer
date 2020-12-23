@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link'
 import styles from './layout.module.scss'
 import { Container, Navbar, Nav, Alert } from 'react-bootstrap'
 
@@ -20,9 +21,18 @@ export default function Layout({ children }) {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
-              <Nav.Link className={styles.topNavLink} href="/">Bio</Nav.Link>
-              <Nav.Link className={styles.topNavLink} href="/publications">Publications</Nav.Link>
-              <Nav.Link className={styles.topNavLink} href="/">Outside Academia</Nav.Link>
+              <Link href="/bio" passHref>
+                <Nav.Link className={styles.topNavLink}>Bio</Nav.Link>
+              </Link>
+              <Link href="/publications" passHref>
+                <Nav.Link className={styles.topNavLink}>Publications</Nav.Link>
+              </Link>
+              <Link href="/outside_academia" passHref>
+                <Nav.Link className={styles.topNavLink}>Outside Academia</Nav.Link>
+              </Link>
+              <Link href="/contact" passHref>
+                <Nav.Link className={styles.topNavLink} >Contact</Nav.Link>
+              </Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
