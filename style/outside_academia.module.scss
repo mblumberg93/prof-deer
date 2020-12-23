@@ -5,3 +5,11 @@
         margin-bottom: 1.2rem;
     }
 }
+.oaHorizImage {
+    @media (max-width: 576px) { 
+        img {
+            max-height: 75vw;
+            object-fit: cover;
+        }
+    }
+}

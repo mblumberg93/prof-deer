@@ -11,12 +11,12 @@ export default function OutsideAcademia() {
                         <img src="/images/IMG-2049.jpg" />
                     </Col>
                     <Col md={6}>
-                        <Container>
-                            <Row>
+                        <Container fluid>
+                            <Row className={styles.oaHorizImage}>
                                 <img src="/images/IMG-9162.JPG" />
                             </Row>
-                            <Row>
-                                <img src="/images/IMG-9972.JPG" />
+                            <Row className={styles.oaHorizImage}>
+                                <img className={styles.oaHorizImage} src="/images/IMG-9972.JPG" />
                             </Row>
                         </Container>
                     </Col>
