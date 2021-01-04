@@ -1,6 +1,17 @@
 export const CurrentPubs = [
     {
         authors: [
+            "Shields, G. S.", 
+            "Deer, L. K.", 
+            "Hastings, P. D.",
+            "Hostinar, C. E."
+        ],
+        year: "2021, in press",
+        title: "Adiposity, inflammation, and working memory: Longitudinal evidence for a vicious cycle",
+        source: "Brain, Behavior, and Immunity – Health"
+    },
+    {
+        authors: [
             "Deer, L. K.", 
             "Hastings, P. D.", 
             "Hostinar, C. E."
@@ -121,17 +132,6 @@ export const UpcomingPubs = [
         year: "revision invited, in progress",
         title: "Curvilinear associations between family income in early childhood and the cortisol awakening response in adolescence",
         source: "Psychoneuroendocrinology"
-    },
-    {
-        authors: [
-            "Shields, G. S.", 
-            "Deer, L. K.", 
-            "Hastings, P. D.",
-            "Hostinar, C. E."
-        ],
-        year: "revision invited, in progress",
-        title: "Adiposity, inflammation, and working memory: Longitudinal evidence for a vicious cycle",
-        source: "Brain, Behavior, and Immunity – Health"
     },
     {
         authors: [

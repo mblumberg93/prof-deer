@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import styles from './layout.module.scss'
-import { Container, Navbar, Nav, Alert } from 'react-bootstrap'
+import { Container, Navbar, Nav } from 'react-bootstrap'
 
 export default function Layout({ children }) {
   return (
@@ -12,9 +12,6 @@ export default function Layout({ children }) {
               content="LillyBelle Deer's Professional Website" />
         <meta name="og:title" content="LillyBelle Deer" />
       </Head>
-      <Alert variant="info">
-        Website under construction - check back soon!
-      </Alert>
       <Container fluid="md">
         <Navbar expand="lg">
           <Navbar.Brand className={styles.topNavBrand}  href="/">LillyBelle Deer</Navbar.Brand>
