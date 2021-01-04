@@ -1,4 +1,5 @@
 import { Container, Row, Col } from 'react-bootstrap'
+import Image from 'next/image'
 import Layout from '../components/layout'
 import styles from'../style/home.module.scss'
 
@@ -7,8 +8,8 @@ export default function Home() {
     <Layout>
       <Container fluid>
         <Row>
-          <Col md={6}>
-            <img className={styles.homeImage} src="/images/home.jpg" />
+          <Col md={6} className={styles.homeImageContainer}>
+            <Image className={styles.homeImage} src="/images/home.jpg" height={500} width={350} layout='responsive' />
           </Col>
           <Col md={6}>
             <div className={styles.homeIntro}>

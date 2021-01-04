@@ -1,10 +1,11 @@
-.bioImages {
-    img {
-        width: 80%;
-    }
-}
 .bioImageCol {
     display: flex;
     justify-content: center;
     align-items: center;
+    @media (max-width: 768px) {
+        padding: 1rem 0;
+    }
+}
+.bioImage {
+    object-fit: contain;
 }

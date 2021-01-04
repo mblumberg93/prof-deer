@@ -1,22 +1,23 @@
 import Layout from '../components/layout'
 import { Container, Row, Col } from 'react-bootstrap'
 import styles from '../style/outside_academia.module.scss'
+import Image from 'next/image'
 
 export default function OutsideAcademia() {
     return (
         <Layout>
-            <Container className={styles.oaImages}>
+            <Container>
                 <Row>
-                    <Col md={6}>
-                        <img src="/images/IMG-2049.jpg" />
+                    <Col md={6} className={styles.oaImageContainer}>
+                        <Image className={styles.oaImage} src="/images/IMG-2049.jpg" height={670} width={500} layout='responsive' />
                     </Col>
-                    <Col md={6}>
+                    <Col md={6} className={styles.oaImageContainer}> 
                         <Container fluid>
-                            <Row className={styles.oaHorizImage}>
-                                <img src="/images/IMG-9162.JPG" />
+                            <Row className={styles.oaHorizImageRow}>
+                                <Image className={styles.oaImage} src="/images/IMG-9162.JPG" height={375} width={500} />
                             </Row>
-                            <Row className={styles.oaHorizImage}>
-                                <img className={styles.oaHorizImage} src="/images/IMG-9972.JPG" />
+                            <Row className={styles.oaHorizImageRow}>
+                                <Image className={styles.oaImage} src="/images/IMG-9972.JPG" height={375} width={500} />
                             </Row>
                         </Container>
                     </Col>

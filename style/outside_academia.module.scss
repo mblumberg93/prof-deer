@@ -1,15 +1,12 @@
-.oaImages {
-    margin-bottom: 1.6rem;
-    img {
-        width: 99%;
-        margin-bottom: 1.2rem;
+.oaImageContainer {
+    margin-bottom: 1rem;
+    @media (max-width: 768px) {
+        padding: 0;
     }
 }
-.oaHorizImage {
-    @media (max-width: 576px) { 
-        img {
-            max-height: 75vw;
-            object-fit: cover;
-        }
-    }
+.oaImage {
+    object-fit: contain;
+}
+.oaHorizImageRow {
+    margin-bottom: 1rem;
 }

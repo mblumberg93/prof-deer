@@ -1,15 +1,19 @@
-.homeImage {
-    margin: 0 auto 1.6rem;
-    -webkit-box-shadow: 2px 2px 4px 1px rgba(0,0,0,0.6); 
-    box-shadow: 2px 2px 4px 1px rgba(0,0,0,0.6);
-    max-width: 100%;
-    display: block;
-
-    @media (min-width: 576px) { 
-        max-width: 75%;
+.homeImageContainer {
+    padding-bottom: 1.6rem;
+    @media (min-width: 768px) {
+        padding: 0 1.6rem;
+    }
+    @media (min-width: 1200px) {
+        padding: 2rem;
     }
 }
-
+.homeImage {
+    object-fit: contain;
+    /* TODO - Fix for Next JS Images
+    -webkit-box-shadow: 2px 2px 4px 1px rgba(0,0,0,0.6); 
+    box-shadow: 2px 2px 4px 1px rgba(0,0,0,0.6);
+    */
+}
 .homeIntro {
     @media (min-width: 1200px) { 
         margin: 0;
