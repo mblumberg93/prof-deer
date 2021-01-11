@@ -12,13 +12,13 @@ export default function Bio() {
             <Container>
                 <Row>
                     <Col md={4} className={styles.bioImageCol}>
-                        <Image className={styles.bioImage} src="/images/UC Psych_for About Page.jpg" height={260} width={260} priority='true' />
+                        <Image className={styles.bioImage} src="/images/UC Psych_for About Page.jpg" height={260} width={260} priority='true' alt="LillyBelle Deer - UC Davis Department of Psychology" />
                     </Col>
                     <Col md={4} className={styles.bioImageCol}>
-                        <Image className={styles.bioImage} src="/images/CPR_for About Page.png" height={125} width={260} priority='true' />
+                        <Image className={styles.bioImage} src="/images/CPR_for About Page.png" height={125} width={260} priority='true' alt="LillyBelle Deer - Center for Poverty Research" />
                     </Col>
                     <Col md={4} className={styles.bioImageCol}>
-                        <Image className={styles.bioImage} src="/images/SES Lab_for About Page.png" height={235} width={260} priority='true' />
+                        <Image className={styles.bioImage} src="/images/SES Lab_for About Page.png" height={235} width={260} priority='true' alt="LillyBelle Deer - Social Environment and Stress Lab" />
                     </Col>
                 </Row>
             </Container>

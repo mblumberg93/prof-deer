@@ -9,7 +9,7 @@ export default function Home() {
       <Container fluid>
         <Row>
           <Col md={6} className={styles.homeImageContainer}>
-            <Image className={styles.homeImage} src="/images/home.jpg" height={500} width={350} layout='responsive' priority='true' />
+            <Image className={styles.homeImage} src="/images/home.jpg" height={500} width={350} layout='responsive' priority='true' alt="LillyBelle Deer Head Shot" />
           </Col>
           <Col md={6}>
             <div className={styles.homeIntro}>

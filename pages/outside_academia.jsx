@@ -9,15 +9,15 @@ export default function OutsideAcademia() {
             <Container>
                 <Row>
                     <Col md={6} className={styles.oaImageContainer}>
-                        <Image className={styles.oaImage} src="/images/IMG-2049.jpg" height={670} width={500} layout='responsive' priority='true' />
+                        <Image className={styles.oaImage} src="/images/IMG-2049.jpg" height={670} width={500} layout='responsive' priority='true' alt="LillyBelle Deer - Hiking with Family in Mountains" />
                     </Col>
                     <Col md={6} className={styles.oaImageContainer}> 
                         <Container fluid>
                             <Row className={styles.oaHorizImageRow}>
-                                <Image className={styles.oaImage} src="/images/IMG-9162.JPG" height={375} width={500} priority='true' />
+                                <Image className={styles.oaImage} src="/images/IMG-9162.JPG" height={375} width={500} priority='true' alt="LillyBelle Deer - With Dogs on the Beach" />
                             </Row>
                             <Row className={styles.oaHorizImageRow}>
-                                <Image className={styles.oaImage} src="/images/IMG-9972.JPG" height={375} width={500} priority='true' />
+                                <Image className={styles.oaImage} src="/images/IMG-9972.JPG" height={375} width={500} priority='true' alt="LillyBelle Deer - Hawaii Beach" />
                             </Row>
                         </Container>
                     </Col>
