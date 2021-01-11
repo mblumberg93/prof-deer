@@ -12,6 +12,22 @@ export const CurrentPubs = [
     },
     {
         authors: [
+            "Parenteau, A. M.", 
+            "Alen, N. V.", 
+            "Deer, L. K.", 
+            "Nissen, A. T.", 
+            "Luck, A. T.", 
+            "Hostinar, C. E."
+        ],
+        year: "2021",
+        title: "Parenting matters: Parents can reduce or amplify children's anxiety and cortisol responses to acute stress",
+        source: "Development and Psychopathology",
+        volume_issue: "32",
+        reference: "1799-1809. doi: 10.1017/S0954579200001285",
+        pdf: "6. DPp_2021.pdf"
+    },
+    {
+        authors: [
             "Deer, L. K.", 
             "Hastings, P. D.", 
             "Hostinar, C. E."
@@ -22,22 +38,6 @@ export const CurrentPubs = [
         volume_issue: "91(5)",
         reference: "e1046-e1063. doi: 10.1111/cdev.13383",
         pdf: "7. CD_2020.pdf"
-    },
-    {
-        authors: [
-            "Parenteau, A. M.", 
-            "Alen, N. V.", 
-            "Deer, L. K.", 
-            "Nissen, A. T.", 
-            "Luck, A. T.", 
-            "Hostinar, C. E."
-        ],
-        year: "2020, in press",
-        title: "Parenting matters: Parents can reduce or amplify children's anxiety and cortisol responses to acute stress",
-        source: "Development and Psychopathology",
-        volume_issue: null,
-        reference: null,
-        pdf: null
     },
     {
         authors: [
