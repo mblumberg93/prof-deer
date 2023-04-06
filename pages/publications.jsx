@@ -2,6 +2,7 @@ import Layout from '../components/layout'
 import { CloudDownload } from 'react-bootstrap-icons'
 import { publicationString, publicationKey } from '../services/publicationService'
 import styles from '../style/publications.module.scss'
+import { AllPubs } from '../lib/pubs'
 
 export default function Publications({ currentPubs, upcomingPubs }) {
     return (
@@ -42,7 +43,7 @@ export async function getServerSideProps() {
         headers: {
             'Content-Type': 'application/json'
         }
-    }).then(response => response.json())
+    }).then(response => response.json()).catch(_ => AllPubs)
 
     const currentPubs = allPubs.filter(pub => { return pub.current }).sort((a, b) => b.year - a.year)
     const upcomingPubs = allPubs.filter(pub => { return pub.current != true }).sort((a, b) => b.year - a.year)
