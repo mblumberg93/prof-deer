@@ -38,15 +38,18 @@ export default function Publications({ currentPubs, upcomingPubs }) {
 }
 
 export async function getServerSideProps() {
+    const allPubs = AllPubs
+    /**
+     * The CMS not longer works
     const allPubs = await fetch('https://marcs-strapi.herokuapp.com/publications', {
         method: 'GET',
         headers: {
             'Content-Type': 'application/json'
         }
     }).then(response => response.json()).catch(_ => AllPubs)
-
-    const currentPubs = allPubs.filter(pub => { return pub.current }).sort((a, b) => b.year - a.year)
-    const upcomingPubs = allPubs.filter(pub => { return pub.current != true }).sort((a, b) => b.year - a.year)
+     */
+    const currentPubs = allPubs.filter(pub => { return pub.current }).sort((a, b) => b.number - a.number)
+    const upcomingPubs = allPubs.filter(pub => { return pub.current != true }).sort((a, b) => b.number - a.number)
 
     return { props: { currentPubs, upcomingPubs } }
 }
