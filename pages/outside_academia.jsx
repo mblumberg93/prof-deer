@@ -23,9 +23,15 @@ export default function OutsideAcademia() {
                     </Col>
                 </Row>
             </Container>
-            <p>I was born and raised in Honolulu, Hawai'i and have lived in various cities in California for most of my adult life. Living in such beautiful parts of the country has inspired a love for the outdoors and I spend many weekends hiking and camping.</p>
-            <p>Growing up near the ocean, aquatic sports have been a huge part of my life. I swam and played water polo throughout high school and college and now swim with <a target="_blank" href="https://www.damfast.org/">Davis Aquatics Masters</a></p>
-            <p>I currently live in Sacramento with my fiancé, Marc, and my three dogs, Doug, Milo, and Dot.</p>
+            <p>
+                I was born and raised in Honolulu, Hawai’i and lived in both Southern and Northern California during my undergraduate and graduate career. I now live in Denver, Colorado. Living in such beautiful parts of the country has inspired a deep love for the outdoors and I spend many weekends hiking, trail running, and camping.
+                </p>
+            <p>
+                Growing up near the ocean, aquatic sports have been a huge part of my life. I swam and played water polo throughout high school and college and now have the honor of doing both with <a target="_blank" href="https://denversquid.com/ ">Denver Squid</a>.
+            </p>
+            <p>
+                I currently live in Denver, Colorado with my husband, Marc, and my three dogs, Doug, Milo and Dot.
+            </p>
         </Layout>
     )
 }
